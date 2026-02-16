@@ -1,6 +1,7 @@
 # Retail Sales Dashboard
 
 A Power BI dashboard analyzing retail sales performance across regions, products, and time periods.
+![Dashboard Overview](images/dashboard.overview.png)
 
 ## Data Source
 
