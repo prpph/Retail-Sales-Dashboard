@@ -24,6 +24,9 @@ The dataset is based on retail sales data from 2022-2024. Since the original dat
 ## What Questions Does It Answer?
 
 ### 1. What is our sales performance across the years?
+
+![KPI Cards](images/kpi_showcase.png)
+
 The dashboard shows four key KPIs with year-over-year comparisons:
 - **Net Sales**: Total revenue generated
 - **Orders**: Number of transactions
@@ -47,17 +50,17 @@ A dual-axis combo chart displays:
 ### 4. What are the product details and performance metrics?
 A detailed table shows:
 - Product Name
-- Cost Price
-- Unit Price
-- Total Discounted Amount (in thousands)
 - Quantity Sold
+- Total Discounted Amount (in thousands)
+- Unit Price
+- Cost Price
 
 This helps identify which products generate the most revenue and which discounting strategies work best.
 
 ### 5. Which products performed best with the discounting strategy?
 A scatter chart plots:
-- **X-axis**: Discounted Amount
-- **Y-axis**: Profit Margin
+- **X-axis**: Profit Margin
+- **Y-axis**: Discounted Amount (in thousands)
 - **Legend**: Product Category
 - **Reference Lines**: Average lines for both axes
 
@@ -65,15 +68,15 @@ A scatter chart plots:
 
 ## Key Features
 
-- **Interactive Filtering**: Slicers for region and other dimensions
-- **Year-over-Year Analysis**: Compare current performance against previous year
+- **Interactive Filtering**: Slicer buttons for Year , crossfiltering between each visuals
+- **Year-over-Year Analysis**: Compare current performance against previous year ( contain both absolute and relative values )
 - **Visual Variety**: Cards, charts, tables, and scatter plots for different analytical needs
-- **Business-Focused**: Designed to answer real stakeholder questions
+- **Business-Focused**: Designed to answer real stakeholder questions following the Z pattern
 
 ## Sample Insights
 
 - Products with higher discounts don't necessarily have lower profit margins
-- Regional performance varies significantly, with top regions driving majority of sales
+- Regional performance maintain consistency, with East region driving majority of sales
 - Profit margins fluctuate throughout the year, often inversely related to sales spikes during promotional periods
 - The product mix reveals opportunities to optimize pricing and discount strategies
 
